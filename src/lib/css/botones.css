@@ -1,0 +1,132 @@
+/*DROP DOWN*/
+.dropdown-menu {
+	--bs-dropdown-link-hover-color: var(--color-negro);
+	--bs-dropdown-link-hover-bg: var(--color-gris-100);
+	--bs-dropdown-link-active-color: var(--color-blanco);
+	--bs-dropdown-link-active-bg: var(--color-morado);
+}
+.dropend .dropdown-toggle::after {
+	float: right;
+	margin-top: 3%;
+}
+/*BOTONES*/
+.btn {
+	border: none !important;
+	font-size: var(--txt-14);
+}
+
+.btn-morado,
+.btn-morado-spinner {
+	background-color: var(--color-morado);
+	color: var(--color-blanco) !important;
+	border-radius: 10px;
+	padding: 14px 30px;
+}
+.btn-morado:hover,
+.btn-morado:active {
+	background-color: var(--color-morado-acent) !important;
+}
+
+.btn-morado-spinner:hover {
+	background-color: var(--color-morado) !important;
+	cursor: default;
+}
+
+.btn-morado-fantasma {
+	background-color: transparent;
+	color: var(--color-morado) !important;
+	border: 1.5px solid var(--color-morado) !important;
+	border-radius: 10px;
+	padding: 14px 30px;
+}
+.btn-morado-fantasma:hover,
+.btn-morado-fantasma:active {
+	background-color: var(--color-morado) !important;
+	color: var(--color-blanco) !important;
+}
+
+.btn-negro {
+	background-color: var(--color-negro);
+	color: var(--color-blanco) !important;
+	border-radius: 10px;
+	padding: 14px 30px;
+}
+.btn-negro:hover,
+.btn-negro:active {
+	background-color: var(--color-negro-acent) !important;
+}
+
+.btn-rosa {
+	background-color: transparent;
+	color: var(--color-rosa) !important;
+	border: 1.5px solid var(--color-rosa) !important;
+	border-radius: 10px;
+	padding: 14px 30px;
+}
+.btn-rosa:hover,
+.btn-rosa:active {
+	background-color: var(--color-rosa) !important;
+	color: var(--color-blanco) !important;
+}
+
+.btn-azul {
+	background-color: transparent;
+	color: var(--color-negro) !important;
+	border: 1.5px solid var(--color-azul) !important;
+	border-radius: 10px;
+	padding: 14px 30px;
+}
+.btn-azul:hover,
+.btn-azul:active {
+	background-color: var(--color-azul) !important;
+	color: var(--color-negro) !important;
+}
+
+.btn-cancelar {
+	background-color: transparent;
+	color: var(--color-rojo) !important;
+	border: 1.5px solid var(--color-rojo) !important;
+	border-radius: 10px;
+	padding: 14px 30px;
+}
+.btn-cancelar:hover,
+.btn-cancelar:active {
+	background-color: var(--color-rojo) !important;
+	color: var(--color-blanco) !important;
+}
+
+/*LINKS*/
+.link-negro {
+	color: var(--color-negro);
+}
+.link-negro:hover {
+	color: var(--color-morado);
+}
+
+.link-rojo {
+	color: var(--color-rojo);
+}
+.link-rojo:hover {
+	color: var(--color-rojo-acent);
+}
+
+/* @media only screen and (max-width: 1280px) {
+	.btn {
+		border: none !important;
+		font-size: var(--txt-16);
+	}
+} */
+
+/* @media only screen and (max-width: 1024px) {
+	.btn {
+		border: none !important;
+		font-size: var(--txt-12);
+	}
+} */
+
+/* @media only screen and (max-width: 768px) {
+	.btn {
+		border: none !important;
+		font-size: var(--txt-12);
+	}
+} */

@@ -1,0 +1,114 @@
+.txt-45 {
+	font-size: var(--txt-45);
+}
+.txt-40 {
+	font-size: var(--txt-40);
+}
+.txt-35 {
+	font-size: var(--txt-35);
+}
+.txt-30 {
+	font-size: var(--txt-30);
+}
+.txt-24 {
+	font-size: var(--txt-24);
+}
+.txt-20 {
+	font-size: var(--txt-20);
+}
+.txt-18 {
+	font-size: var(--txt-18);
+}
+.txt-16 {
+	font-size: var(--txt-16);
+}
+.txt-14 {
+	font-size: var(--txt-14);
+}
+.txt-12 {
+	font-size: var(--txt-12);
+}
+
+/*PESOS*/
+
+.bold {
+	font-weight: 900;
+}
+.semi-bold {
+	font-weight: 700;
+}
+.medium {
+	font-weight: 500;
+}
+.normal {
+	font-weight: 400;
+}
+.light {
+	font-weight: 300;
+}
+
+/* CLASES PARA COLOR DE TEXTO */
+
+.txt-blanco {
+	color: var(--color-blanco);
+}
+.txt-morado {
+	color: var(--color-morado);
+}
+.txt-negro {
+	color: var(--color-negro);
+}
+.txt-amarillo {
+	color: var(--color-amarillo);
+}
+.txt-azul {
+	color: var(--color-azul);
+}
+.txt-verde {
+	color: var(--color-verde) !important;
+}
+.txt-verde-acent {
+	color: var(--color-verde-acent);
+}
+.txt-gris {
+	color: var(--color-gris);
+}
+.txt-rojo {
+	color: var(--color-rojo);
+}
+.txt-rosa {
+	color: var(--color-rosa);
+}
+
+@media only screen and (max-width: 1024px) {
+	.txt-45 {
+		font-size: var(--txt-40);
+	}
+	.txt-40 {
+		font-size: var(--txt-35);
+	}
+	.txt-35 {
+		font-size: var(--txt-30);
+	}
+	.txt-30 {
+		font-size: var(--txt-28);
+	}
+	.txt-28 {
+		font-size: var(--txt-24);
+	}
+	.txt-24 {
+		font-size: var(--txt-20);
+	}
+	.txt-20 {
+		font-size: var(--txt-18);
+	}
+	.txt-18 {
+		font-size: var(--txt-16);
+	}
+	.txt-16 {
+		font-size: var(--txt-14);
+	}
+	.txt-14 {
+		font-size: var(--txt-12);
+	}
+}
