@@ -39,7 +39,9 @@
 }
 
 /*Contenedor bootstrap personalizado*/
-
+.anton{
+	font-family: var(--anton);
+}
 body {
 	font-family: var(--monda) !important;
 	color: var(--color-gris-900) !important;
