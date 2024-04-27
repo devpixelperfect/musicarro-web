@@ -1,6 +1,5 @@
 <script>
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	
 </script>
 
 <svelte:head>
@@ -10,7 +9,7 @@
 
 <section>
 	<div class="container d-flex justify-content-center">
-		<h1 class="mt-5">
+		<h1 class="mt-5 txt-160 lg-txt-40">
 			Contenido
 		</h1>
 	</div>
