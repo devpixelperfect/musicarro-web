@@ -17,6 +17,45 @@
 	color: var(--color-gris-900) !important;
 }
 
+.btn-transparente-blanco{
+	background-color: var(--color-blanco);
+	color: var(--color-gris-900) !important;
+	border-radius: 5px;
+	padding: 8px 30px;
+	border: 1px solid var(--color-gris-900);
+}
+.btn-transparente-blanco:hover,
+.btn-transparente-blanco:active {
+	border: 1px solid var(--color-gris-900);
+	background-color: var(--color-gris-50);
+	color: var(--color-gris-900) !important;
+}
+
+.btn-rojo{
+	background-color: var(--color-rojo);
+	color: var(--color-blanco) !important;
+	border-radius: 5px;
+	padding: 8px 30px;
+	border: 1px solid var(--color-gris-900);
+}
+.btn-rojo:hover,
+.btn-rojo:active {
+	background-color: var(--color-rojo-500);
+	border: 1px solid var(--color-gris-900);
+}
+
+.btn-negro{
+	background-color: var(--color-gris-900);
+	color: var(--color-blanco) !important;
+	border-radius: 5px;
+	padding: 8px 30px;
+	border: 1px solid var(--color-gris-900);
+}
+.btn-negro:hover,
+.btn-negro:active {
+	background-color: var(--color-gris-700);
+	border: 1px solid var(--color-gris-900);
+}
 
 /*LINKS*/
 .link-rojo {
@@ -24,4 +63,10 @@
 }
 .link-rojo:hover {
 	color: var(--color-rojo-acent);
+}
+
+@media screen and (max-width: 768px){
+	.btn {
+		font-size: var(--txt-14);
+	}
 }

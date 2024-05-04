@@ -1,4 +1,10 @@
 <script>
+	import Productos from "$lib/components/carrusel/Productos.svelte";
+    import Marcas from "$lib/components/carrusel/Marcas.svelte";
+    import ProductosDestacados from "$lib/components/carrusel/ProductosDestacados.svelte";
+    import GridDestacados from "$lib/components/utilidades/GridDestacados.svelte";
+    import Testimoniales from "$lib/components/utilidades/Testimoniales.svelte";
+	
 	
 </script>
 
@@ -13,10 +19,13 @@
 			Contenido
 		</h1>
 	</div>
+	<GridDestacados />
+	<ProductosDestacados />
+	<Testimoniales />
+	<Marcas />
+	<Productos />
 </section>
 
 <style>
-	section {
-		height: 100vh;
-	}
+
 </style>

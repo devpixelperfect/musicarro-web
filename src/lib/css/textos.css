@@ -1,5 +1,19 @@
+.txt-header {
+	font-family: var(--anton);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8), /* Sombra oscura para dar profundidad */ -1px -1px 1px rgba(255, 255, 255, 0.1),
+		/* Sombra clara sutil para simular elevación */ 2px 2px 4px rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+}
+
+.price {
+	font-family: var(--anton);
+}
+
 .txt-160 {
 	font-size: var(--txt-160);
+}
+.txt-100 {
+	font-size: var(--txt-100);
 }
 .txt-48 {
 	font-size: var(--txt-48);
@@ -91,6 +105,9 @@
 	.lg-txt-160 {
 		font-size: var(--txt-160) !important;
 	}
+	.lg-txt-100 {
+		font-size: var(--txt-100) !important;
+	}
 	.lg-txt-48 {
 		font-size: var(--txt-48) !important;
 	}
@@ -124,6 +141,9 @@
 @media only screen and (max-width: 768px) {
 	.md-txt-160 {
 		font-size: var(--txt-160) !important;
+	}
+	.md-txt-100 {
+		font-size: var(--txt-100) !important;
 	}
 	.md-txt-48 {
 		font-size: var(--txt-48) !important;

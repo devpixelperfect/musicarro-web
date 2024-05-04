@@ -1,0 +1,61 @@
+.swiper-button-prev, .swiper-button-next{
+    color: var(--color-gris-900) !important;
+    border: 1px solid var(--color-gris-900) !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    background-color: var(--color-blanco);
+}
+.swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 16px !important; 
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover{
+    background-color: var(--color-gris-900);
+    color: var(--color-blanco) !important;
+}
+.swiper-wrapper{
+
+    align-items: center;
+}
+
+/* Destacados */
+
+.destacados .swiper-slide{
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+.destacados .swiper-slide-active + div .card{
+    border: 1px solid #000 !important;
+    transition: all 1s;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.destacados .swiper-slide-active + div{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.destacados .swiper-slide-active + div p{
+    opacity: 1 !important;
+}
+
+.destacados .swiper-slide-active + div button{
+    opacity: 1 !important;
+}
+
+@media screen and (max-width: 992px){
+    .destacados  p{
+        opacity: 1 !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .destacados  p, .destacados button{
+        opacity: 1 !important;
+    }
+    .destacados .card{
+        border: 1px solid #000 !important;
+        transition: all 1s;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
