@@ -5,7 +5,7 @@
     import Categorias from "$lib/components/productos/Categorias.svelte";
     import Busqueda from "$lib/components/productos/Busqueda.svelte";
     import Tienda from "$lib/components/productos/Tienda.svelte";
-    import BannerDos from "$lib/components/Banner-dos.svelte";
+    import BannerDos from "$lib/components/banners/Banner-dos.svelte";
     
     
 	let innerWidth = 0;

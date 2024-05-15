@@ -1,6 +1,6 @@
 <script>
-    import Banner from "$lib/components/Banner.svelte";
-	import Breadcrumb from "$lib/components/Breadcrumb.svelte";
+    import Banner from "$lib/components/banners/Banner.svelte";
+	import Breadcrumb from "$lib/components/utilidades/Breadcrumb.svelte";
     import Marcas from "$lib/components/carrusel/Marcas.svelte";
     import Productos from "$lib/components/carrusel/Productos.svelte";
     import Informacion from "$lib/components/productos/Informacion.svelte";
