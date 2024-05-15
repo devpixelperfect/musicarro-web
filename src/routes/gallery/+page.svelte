@@ -1,5 +1,7 @@
 <script>
-    import Banner from "../../lib/components/Banner.svelte";
+    import Banner from "$lib/components/banners/Banner.svelte";
+    import Marcas from "$lib/components/carrusel/Marcas.svelte";
+    import Productos from "$lib/components/carrusel/Productos.svelte";
 </script>
 
 <!-- Banner component -->
@@ -51,6 +53,10 @@
         </div>
     </div>
 </section>
+
+<!-- Secciones adicionales -->
+<Marcas/>
+<Productos/>
 
 <style>
     .grid-container {
