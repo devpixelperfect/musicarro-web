@@ -1,5 +1,7 @@
 <script>
-	import BannerDos from "../../lib/components/Banner-dos.svelte";
+	import BannerDos from "$lib/components/banners/Banner-dos.svelte";
+    import Marcas from "$lib/components/carrusel/Marcas.svelte";
+    import Productos from "$lib/components/carrusel/Productos.svelte";
 </script>
 
 <!-- Banner component -->
@@ -17,6 +19,10 @@
         </div>
     </div>
 </section>
+
+<!-- Secciones adicionales -->
+<Marcas/>
+<Productos/>
 
 <style>
     div {
