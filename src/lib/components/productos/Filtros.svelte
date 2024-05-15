@@ -1,5 +1,5 @@
 <div class="mb-5 fdo-blanco py-4 px-3 filtros">
-    <h3 class="anton">Filter productos</h3>
+    <h3 class="anton">Order Summary</h3>
     <p>Filter products to find results</p>
 
     <p class="mt-4">Category</p>

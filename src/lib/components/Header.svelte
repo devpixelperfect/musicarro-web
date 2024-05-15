@@ -59,7 +59,7 @@
 				</div>
 	
 				<hr>
-				<a href="/contacto" class="btn btn-transparente d-flex align-items-center"><i class="bi bi-cart2 me-md-2"></i>
+				<a href="/cart" class="btn btn-transparente d-flex align-items-center"><i class="bi bi-cart2 me-md-2"></i>
 					{#if innerWidth > 768}
 						Cart
 					{/if} 
@@ -110,6 +110,9 @@
 			font-size: var(--txt-14);
 		}
 		header {
+			height: 50px;
+		}
+		hr{
 			height: 50px;
 		}
 		.logo img{

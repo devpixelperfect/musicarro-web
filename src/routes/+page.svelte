@@ -4,6 +4,8 @@
     import ProductosDestacados from "$lib/components/carrusel/ProductosDestacados.svelte";
     import GridDestacados from "$lib/components/utilidades/GridDestacados.svelte";
     import Testimoniales from "$lib/components/utilidades/Testimoniales.svelte";
+    import SlideHome from "$lib/components/slides/SlideHome.svelte";
+	
 	
 	
 </script>
@@ -14,11 +16,7 @@
 </svelte:head>
 
 <section>
-	<div class="container d-flex justify-content-center">
-		<h1 class="mt-5 txt-160 lg-txt-40">
-			Contenido
-		</h1>
-	</div>
+	<SlideHome />
 	<GridDestacados />
 	<ProductosDestacados />
 	<Testimoniales />

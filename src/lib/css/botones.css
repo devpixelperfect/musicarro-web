@@ -62,7 +62,14 @@
 	color: var(--color-rojo);
 }
 .link-rojo:hover {
-	color: var(--color-rojo-acent);
+	color: var(--color-rojo-500);
+}
+
+.link-negro {
+	color: var(--color-gris-900);
+}
+.link-negro:hover {
+	color: var(--color-rojo);
 }
 
 @media screen and (max-width: 768px){

@@ -1,10 +1,11 @@
 <script>
 	import Productos from "$lib/components/carrusel/Productos.svelte";
     import Marcas from "$lib/components/carrusel/Marcas.svelte";
-    import Filtros from "$lib/components/products/Filtros.svelte";
-    import Categorias from "$lib/components/products/Categorias.svelte";
-    import Busqueda from "$lib/components/products/Busqueda.svelte";
-    import Tienda from "$lib/components/products/Tienda.svelte";
+    import Filtros from "$lib/components/productos/Filtros.svelte";
+    import Categorias from "$lib/components/productos/Categorias.svelte";
+    import Busqueda from "$lib/components/productos/Busqueda.svelte";
+    import Tienda from "$lib/components/productos/Tienda.svelte";
+    import BannerDos from "$lib/components/Banner-dos.svelte";
     
     
 	let innerWidth = 0;
@@ -19,13 +20,7 @@
 </svelte:head>
 
 <section class="fdo-gris-50">
-    <div class="fdo-gris-500 py-5">
-        <div class="container d-flex justify-content-center">
-            <h1 class="txt-160 lg-txt-40">
-                Slide
-            </h1>
-        </div>
-    </div>
+    <BannerDos texto= "All products" descripcion="Musicarro"/>
 	
     <div class="container mt-5">
         <div class="d-flex gap-xl-5 gap-4">
@@ -45,7 +40,7 @@
     </div>
 
 	<Marcas />
-	<Productos />
+	<!-- <Productos /> -->
 </section>
 
 <style>
