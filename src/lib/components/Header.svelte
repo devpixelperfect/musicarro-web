@@ -15,16 +15,16 @@
 							Products <i class="bi bi-chevron-down"></i>
 						</a>
 						<ul class="dropdown-menu  w-auto">
-							<li><a class="dropdown-item " href="#">Car Audio</a></li>
-							<li><a class="dropdown-item " href="#">Remote Start</a></li>
-							<li><a class="dropdown-item " href="#">Car Security</a></li>
-							<li><a class="dropdown-item " href="#">Dash Camera</a></li>
+							<li><a class="dropdown-item " href="/products">Car Audio</a></li>
+							<li><a class="dropdown-item " href="/products">Remote Start</a></li>
+							<li><a class="dropdown-item " href="/products">Car Security</a></li>
+							<li><a class="dropdown-item " href="/products">Dash Camera</a></li>
 						</ul>
 					</div>
-					<a href="/nosotros" class="txt-blanco ">Our services</a>
-					<a href="/contacto" class="txt-blanco ">About us</a>
-					<a href="/contacto" class="txt-blanco ">Gallery</a>
-					<a href="/contacto" class="txt-blanco ">Contact us</a>
+					<a href="/our-services" class="txt-blanco ">Our services</a>
+					<a href="/about" class="txt-blanco ">About us</a>
+					<a href="/gallery" class="txt-blanco ">Gallery</a>
+					<a href="/contact" class="txt-blanco ">Contact us</a>
 				</div>
 			{/if}
 			
