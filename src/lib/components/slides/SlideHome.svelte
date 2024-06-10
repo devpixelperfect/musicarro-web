@@ -39,7 +39,7 @@
 
 <style>
     .slide{
-        background-image: url('../images/slide-musicarro.jpg');
+        background-image: url('../../../images/slide-musicarro.jpg');
         background-position: center;
         height: 550px;
         background-repeat: no-repeat;
