@@ -17,15 +17,15 @@
 			<div class="">
 				<h2 class="anton txt-24 mb-3 mt-md-0 mt-4">More</h2>
 				<ul>
-					<li><a href="/nosotros" class="txt-blanco">About Us</a></li>
-					<li><a href="/contacto" class="txt-blanco">Return Policity</a></li>
+					<li><a href="/about" class="txt-blanco">About Us</a></li>
+					<li><a href="/return-policy" class="txt-blanco">Return Policity</a></li>
 				</ul>
 			</div>
 			<div class="">
 				<h2 class="anton txt-24 mb-3 mt-md-0 mt-4">Socials</h2>
 				<ul>
-					<li><a href="/nosotros" class="txt-blanco">Facebook</a></li>
-					<li><a href="/contacto" class="txt-blanco">Instagram</a></li>
+					<li><a href="#" class="txt-blanco">Facebook</a></li>
+					<li><a href="#" class="txt-blanco">Instagram</a></li>
 				</ul>
 			</div>
 		</div>
