@@ -11,21 +11,21 @@
 				<p>© 2024 Musicarro</p>
 			</div>
 			<div class="w-25 mt-md-0 mt-4">
-				<h2 class="anton txt-24 mb-3">Contact</h2>
-				<p>General Inquiries-info@musicarro.comAddress: 19 BroadwayMethuen, MA 01844Phone - (978) 738-9611</p>
+				<h2 class="anton txt-24 mb-3">Address</h2>
+				<p>17 Broadway, Methuen, MA 01844, United States</p>
 			</div>
 			<div class="">
-				<h2 class="anton txt-24 mb-3 mt-md-0 mt-4">More</h2>
+				<h2 class="anton txt-24 mb-3 mt-md-0 mt-4">Contact</h2>
 				<ul>
-					<li><a href="/about" class="txt-blanco">About Us</a></li>
-					<li><a href="/return-policy" class="txt-blanco">Return Policity</a></li>
+					<li><p>+1 978-738-9611</p></li>
+					
 				</ul>
 			</div>
 			<div class="">
 				<h2 class="anton txt-24 mb-3 mt-md-0 mt-4">Socials</h2>
 				<ul>
-					<li><a href="#" class="txt-blanco">Facebook</a></li>
-					<li><a href="#" class="txt-blanco">Instagram</a></li>
+					<!-- <li><a href="#" class="txt-blanco">Facebook</a></li> -->
+					<li><a href="https://www.instagram.com/musicarroautosound?igsh=cTRnNXAwcHN4cDBl" class="txt-blanco">Instagram</a></li>
 				</ul>
 			</div>
 		</div>

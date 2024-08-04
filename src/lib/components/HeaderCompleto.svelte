@@ -10,7 +10,7 @@
 		<div class="container-fluid d-flex justify-content-between align-items-center">
 			{#if innerWidth > 1024}
 				<div class="menu d-flex gap-3 w-50 justify-content-end pe-xl-5 pe-3">
-					<!-- <div class="nav-item dropdown">
+					<div class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 							Products <i class="bi bi-chevron-down"></i>
 						</a>
@@ -24,7 +24,7 @@
 					<a href="/our-services" class="txt-blanco ">Our services</a>
 					<a href="/about" class="txt-blanco ">About us</a>
 					<a href="/gallery" class="txt-blanco ">Gallery</a>
-					<a href="/contact" class="txt-blanco ">Contact us</a> -->
+					<a href="/contact" class="txt-blanco ">Contact us</a>
 				</div>
 			{/if}
 			
@@ -36,7 +36,7 @@
 			<div class="menu d-flex gap-md-4 gap-2 justify-content-end align-items-center" class:w-50={innerWidth > 1024}>
 
 				
-				<!-- <div class="dropdown">
+				<div class="dropdown">
 					<a class="d-flex dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						<div class="d-flex align-items-center gap-2 txt-blanco">
 							{#if innerWidth > 768}
@@ -56,16 +56,19 @@
 						<li><a class="dropdown-item " href="#">Tres</a></li>
 						<li><a class="dropdown-item " href="#">Cuatro</a></li>
 					</ul>
-				</div> -->
+				</div>
 	
 				<hr>
-				<a href="#" class="btn btn-transparente d-flex align-items-center">
-					<i class="bi bi-whatsapp me-md-2"></i>
-						Boking Now
+				<a href="/cart" class="btn btn-transparente d-flex align-items-center"><i class="bi bi-cart2 me-md-2"></i>
+					{#if innerWidth > 768}
+						Cart
+					{/if} 
 				</a>
 
-				
-					
+				{#if innerWidth < 1024}
+					<hr>
+					<i class="bi bi-list txt-20 me-3"></i>
+				{/if}
 				
 			</div>
 		</div>
@@ -133,7 +136,7 @@
 		}
 	}
 	@media screen and (max-width: 768px){
-		/* .btn-transparente{
+		.btn-transparente{
 			font-size: var(--txt-20) !important;
 			padding: 0px;
 			width: 40px;
@@ -144,14 +147,7 @@
 		}
 		hr{
 			display: none;
-		} */
-		 .bi{
-			display: none;
-		 }
-		 .btn-transparente{
-			width: 150px;
-			margin-right: 0px;
-		 }
+		}
 	}
 
 	

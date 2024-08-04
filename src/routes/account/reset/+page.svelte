@@ -10,7 +10,7 @@
 
 <style>
     section {
-        background-image: url("../../images/reset.jpg");
+        background-image: url("../../../images/reset.jpg");
         background-size: cover;
         background-position: center;
 

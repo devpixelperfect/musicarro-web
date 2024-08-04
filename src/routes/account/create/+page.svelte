@@ -11,7 +11,7 @@
 
 <style>
     section {
-        background-image: url("../../images/create-account.jpg");
+        background-image: url("../../../images/create-account.jpg");
         background-size: cover;
         background-position: center;
 

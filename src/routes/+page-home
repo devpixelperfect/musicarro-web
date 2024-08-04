@@ -5,7 +5,6 @@
     import GridDestacados from "$lib/components/utilidades/GridDestacados.svelte";
     import Testimoniales from "$lib/components/utilidades/Testimoniales.svelte";
     import SlideHome from "$lib/components/slides/SlideHome.svelte";
-	import Mapa from "$lib/components/utilidades/Mapa.svelte";
 	
 	
 	
@@ -19,9 +18,10 @@
 <section>
 	<SlideHome />
 	<GridDestacados />
-	<Mapa />
-
-	
+	<ProductosDestacados />
+	<Testimoniales />
+	<Marcas />
+	<Productos />
 </section>
 
 <style>

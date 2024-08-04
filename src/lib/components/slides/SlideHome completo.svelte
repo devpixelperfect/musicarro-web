@@ -1,10 +1,10 @@
 <div class="slide">
     <div class="d-flex justify-content-center">
-        <h1 class="anton text-uppercase txt-blanco txt-160 lg-txt-100 ">Musicarro</h1>
+        <h1 class="anton text-uppercase txt-blanco txt-160">Car Audio</h1>
     </div>
     <div class="container d-flex justify-content-between">
         <div class="d-flex gap-lg-3 w-50">
-            <!-- <div class="position-relative d-flex justify-content-center">
+            <div class="position-relative d-flex justify-content-center">
                 <div class="btn-slide d-flex justify-content-center uno">
                     <h4 class="txt-blanco rotar txt-uno">Car audio</h4>
                 </div>
@@ -14,13 +14,13 @@
                 <div class="btn-slide d-flex justify-content-center dos">
                     <h4 class="txt-blanco rotar txt-dos">Remote start</h4>
                 </div>
-            </div> -->
+            </div>
         </div>
         <div class="cont-img">
             <img src="../../images/slide/car-audio.png" alt="" class="w-100">
         </div>
         <div class="d-flex gap-lg-3 w-50 justify-content-end">
-            <!-- <div class="position-relative d-flex justify-content-center">
+            <div class="position-relative d-flex justify-content-center">
                 
                 <div class="btn-slide d-flex justify-content-center tres">
                     <h4 class="txt-blanco rotar txt-tres">Car security</h4>
@@ -32,7 +32,7 @@
                 <div class="btn-slide d-flex justify-content-center cuatro">
                     <h4 class="txt-blanco rotar txt-cuatro">Dash camera</h4>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>
@@ -139,18 +139,4 @@
             padding-top: 20px;
         }
     }
-    @media (max-width: 480px){
-        h1{
-            font-size: 70px !important;
-        }
-        .cont-img{
-            min-width: 320px;
-            margin-top: 30px;
-        }
-        .slide {
-            height: 300px;
-            background-position: center -220px;
-            padding-top: 20px;
-        }
-        }
 </style>
